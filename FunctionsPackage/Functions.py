@@ -8,4 +8,4 @@ def GrabAPIData(x):
     json_string = response.content
     
     parsed_json = json.loads(json_string) # Now we have a python dictionary
-    return parsed_json 
+    return parsed_json
